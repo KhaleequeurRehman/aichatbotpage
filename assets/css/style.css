@@ -1,4 +1,5 @@
 /* --- BEGIN ai-chat.css --- */
+
 .landing-page{
 --font-primary: "Archivo", sans-serif !important;
     --color-bg: #ffffff;
@@ -22,7 +23,7 @@ button {
 
 section.cs-dev{
 padding: 70px 0 122.82px;
-    background-image: url(../images/hero-shade.png);
+    background-image: url(../images/hero-shade.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -144,6 +145,9 @@ font-family: var(--font-primary) !important;
 
 section.trusted-banner{
 margin-top: -4px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
 }
 
 .cs-dev-wrap{
@@ -509,7 +513,11 @@ background: var(--color-buttonbg);
 
 section.why-choose-dev{
 padding-top: 81.14px;
-    text-align: center
+    text-align: center;
+    background: #ffffff;
+    position: relative;
+    z-index: 2;
+    margin-top: 0;
 }
 
 .choose-tagline{
@@ -686,7 +694,7 @@ content: "";
     transform: translateY(-50%);
     width: 60.25px;
     height: 218.7px;
-    background-image: url('https://ikonicdev.com/wp-content/themes/ikonic/images/arrow-started.webp');
+    background-image: url('../images/arrow-started.webp');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -1146,7 +1154,7 @@ margin-top: -6px;
 .main-container .client-say .client-say-card .client-say-card-section{
 display: flex;
     overflow: hidden;
-    background-image: url(../images/Component-shade-one.png);
+    background-image: url(../images/Component-shade-one.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1158,7 +1166,7 @@ display: flex;
 }
 
 .main-container .client-say .client-say-card .client-say-card-section:hover{
-background-image: url(../images/component-hover.png);
+background-image: url(../images/component-hover.webp);
 }
 
 p.custom-laravel-subtext{
@@ -1385,22 +1393,23 @@ display: none;
 }
 
 #viewMoreBtn::after{
-content: "";
+    content: "";
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-left: 4px
+    margin-left: -25px;
+    margin-top: 8px;
 }
 
 .view-more-js::after{
-background-image: url('https://ikonicdev.com/wp-content/themes/ikonic/images/right-angle.webp');
+background-image: url('../images/right-angle.webp');
     rotate: 90deg;
 }
 
 .less-more-js::after{
-background-image: url('https://ikonicdev.com/wp-content/themes/ikonic/images/down-angle.webp');
+background-image: url('../images/down-angle.webp');
     rotate: 0deg;
 }
 
@@ -1482,6 +1491,7 @@ color: #f33;
 /* Optional visual for expanded view-more state */
 button#viewMoreBtn.expanded::after{
     transform: rotate(180deg);
+    margin-top: 0px;
 }
 
 .form__submit:hover{
@@ -3010,7 +3020,7 @@ margin-top: 0
 }
 
 .ch-num{
-background-image: url(https://ikonicdev.com/wp-content/themes/ikonic/images/border-line.webp);
+background-image: url(../images/border-line.webp);
         background-position: center;
         background-repeat: no-repeat;
         background-size: contain
@@ -3098,7 +3108,7 @@ font-weight: 700
 }
 
 .test-drive-section{
-background-image: url('https://ikonicdev.com/wp-content/themes/ikonic/images/Frame-2121457652.webp')
+background-image: url('../images/Frame-2121457652.webp')
 }
 
 .test-drive-section h2.headline{
@@ -3858,4 +3868,160 @@ animation-delay: 3.6s;
 transform: scale(1.1) translateY(-8px);
         z-index: 0;
 }
+}
+
+
+.disp-flex{
+    display: flex;
+}
+
+.disp-inline-flex{
+    display: inline-flex
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center
+}
+
+.anim-all{
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+}
+
+.anim-500{
+    transition-duration: 500ms;
+}
+    
+.img-cover{
+    object-fit: cover;
+}
+
+.circle{
+    border-radius: 9999px;
+}
+    
+.w50{
+    width: 50px;
+}
+
+.h50{
+    height: 50px;
+}
+
+.auto-margin-x{
+    margin-left: auto;
+    margin-right: auto
+}
+    
+.mb0{
+    margin-bottom: 0
+}
+
+.mt10{
+    margin-top: 10px
+}
+
+.mt20{
+    margin-top: 20px
+}
+
+.mt40{
+    margin-top: 40px
+}
+    
+.txt-white{
+    color: #fff
+}
+    
+.txt-black{
+    color: var(--color-bgblack)
+}
+
+.txt-center{
+    text-align: center
+}
+
+txt-xs{
+    font-size: 12px
+}
+
+.txt-sm{
+    font-size: 14px
+}
+
+.txt-base{
+    font-size: 16px
+}
+
+.txt-xl{
+    font-size: 18px
+}
+
+.txt-2xl{
+    font-size: 20px
+}
+
+.txt-4xl{
+    font-size: 38px
+}
+    
+.txt-bold{
+    font-weight: 400
+}
+    
+.gap-md{
+    gap: 10px
+}
+
+.grid-3col{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    place-content: center;
+    gap: 20px
+}
+
+.maxw-md{
+    max-width: 768px
+}
+
+.maxw-594{
+    max-width: 594px;
+}
+
+.full-width{
+    width: 100%
+}
+
+.max-full-width{
+    max-width: 100%
+}
+    
+.cap-text{
+    text-transform: capitalize
+}
+
+.line29{
+    line-height: 29px
+}
+
+.opac-70{
+    opacity: 0.8
+}
+
+.disp-hidden{
+    display: none
+}
+
+.pos-rel{
+    position: relative;
+}
+
+.mt0{
+    margin-top: 0px;
 }
