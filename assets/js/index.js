@@ -86,7 +86,7 @@ document.addEventListener("click", function (e) {
     "Escape" === e.key && closeVideo();
   }),
   null;
-const baseURL = "https://ikonicdev.com/wp-content/themes/ikonic/",
+const baseURL = "./assets/images/",
   modalData = [
     {
       id: 1,
@@ -99,11 +99,11 @@ const baseURL = "https://ikonicdev.com/wp-content/themes/ikonic/",
       solution:
         "We built a HIPAA-compliant AI chatbot that unified patient records, automated appointment scheduling, and supported doctors with intelligent diagnosis assistance.",
       tools: [
-        { name: "Langchain", icon: baseURL + "/images/icons/Langchain.webp" },
-        { name: "Next.js", icon: baseURL + "/images/icons/Next.webp" },
+        { name: "Langchain", icon: baseURL + "/icons/Langchain.webp" },
+        { name: "Next.js", icon: baseURL + "/icons/Next.webp" },
       ],
-      image: baseURL + "/images/case-work-13.webp",
-      clientImage: baseURL + "/images/client-says-2.png",
+      image: baseURL + "/case-work-13.webp",
+      clientImage: baseURL + "/client-says-2.webp",
       testimonial:
         "This chatbot drastically improved our clinic’s efficiency. Appointment scheduling is seamless, and AI diagnosis support is surprisingly accurate.",
       clientName: "Dr. Sarah Lee",
@@ -121,11 +121,11 @@ const baseURL = "https://ikonicdev.com/wp-content/themes/ikonic/",
       solution:
         "We created an AI-powered legal chatbot that automates document analysis, streamlines case tracking, and simplifies contract review with natural language understanding.",
       tools: [
-        { name: "Langchain", icon: baseURL + "/images/icons/Langchain.webp" },
-        { name: "Node.js", icon: baseURL + "/images/icons/node-js-one.webp" },
+        { name: "Langchain", icon: baseURL + "/icons/Langchain.webp" },
+        { name: "Node.js", icon: baseURL + "/icons/node-js-one.webp" },
       ],
-      image: baseURL + "/images/case-work-14.webp",
-      clientImage: baseURL + "/images/client-says-3.png",
+      image: baseURL + "/case-work-14.webp",
+      clientImage: baseURL + "/client-says-3.webp",
       testimonial:
         "The LegalVault chatbot has saved our team countless hours in document review. It’s a game-changer.",
       clientName: "Jonathan Miles",
@@ -143,11 +143,11 @@ const baseURL = "https://ikonicdev.com/wp-content/themes/ikonic/",
       solution:
         "We built a real estate chatbot that delivers instant property insights, tracks client interactions, and provides real-time analytics to support better decision-making.",
       tools: [
-        { name: "Langchain", icon: baseURL + "/images/icons/Langchain.webp" },
-        { name: "Python", icon: baseURL + "/images/icons/python-one.webp" },
+        { name: "Langchain", icon: baseURL + "/icons/Langchain.webp" },
+        { name: "Python", icon: baseURL + "/icons/python-one.webp" },
       ],
-      image: baseURL + "/images/case-work-15.webp",
-      clientImage: baseURL + "/images/client-says-4.png",
+      image: baseURL + "/case-work-15.webp",
+      clientImage: baseURL + "/client-says-4.webp",
       testimonial:
         "This tool helps our agents stay informed and proactive—real-time analytics are incredibly helpful.",
       clientName: "Daniel Brooks",
@@ -165,11 +165,11 @@ const baseURL = "https://ikonicdev.com/wp-content/themes/ikonic/",
       solution:
         "We developed an AI-driven chatbot that automates campaign management, generates on-brand content, and provides real-time analytics through a unified dashboard.",
       tools: [
-        { name: "Langchain", icon: baseURL + "/images/icons/Langchain.webp" },
-        { name: "Next.js", icon: baseURL + "/images/icons/Next.webp" },
+        { name: "Langchain", icon: baseURL + "/icons/Langchain.webp" },
+        { name: "Next.js", icon: baseURL + "/icons/Next.webp" },
       ],
-      image: baseURL + "/images/case-work-16.webp",
-      clientImage: baseURL + "/images/client-says-5.png",
+      image: baseURL + "/case-work-16.webp",
+      clientImage: baseURL + "/client-says-5.webp",
       testimonial:
         "Campaign Studio transformed our workflow. We now launch faster and track performance with ease.",
       clientName: "Alicia Gomez",
@@ -187,11 +187,11 @@ const baseURL = "https://ikonicdev.com/wp-content/themes/ikonic/",
       solution:
         "We built an AI-powered chatbot that automates inventory tracking, analyzes sales patterns, and delivers customer insights to drive smarter business decisions.",
       tools: [
-        { name: "CrewAI", icon: baseURL + "/images/icons/CrewAI.webp" },
-        { name: "PostgreSQL", icon: baseURL + "/images/icons/PostgreSQL.webp" },
+        { name: "CrewAI", icon: baseURL + "/icons/CrewAI.webp" },
+        { name: "PostgreSQL", icon: baseURL + "/icons/PostgreSQL.webp" },
       ],
-      image: baseURL + "/images/case-work-17.webp",
-      clientImage: baseURL + "/images/client-says-6.png",
+      image: baseURL + "/case-work-17.webp",
+      clientImage: baseURL + "/client-says-6.webp",
       testimonial:
         "CommerceAI gave us clarity we never had before. It’s like having a virtual analyst.",
       clientName: "Priya Desai",
@@ -209,11 +209,11 @@ const baseURL = "https://ikonicdev.com/wp-content/themes/ikonic/",
       solution:
         "We developed an AI chatbot that enables efficient course management, offers 24/7 tutoring support, and monitors learning progress through intelligent insights.",
       tools: [
-        { name: "Langchain", icon: baseURL + "/images/icons/Langchain.webp" },
-        { name: "Next.js", icon: baseURL + "/images/icons/Next.webp" },
+        { name: "Langchain", icon: baseURL + "/icons/Langchain.webp" },
+        { name: "Next.js", icon: baseURL + "/icons/Next.webp" },
       ],
-      image: baseURL + "/images/case-work-18.webp",
-      clientImage: baseURL + "/images/client-says-7.png",
+      image: baseURL + "/case-work-18.webp",
+      clientImage: baseURL + "/client-says-7.webp",
       testimonial:
         "EduCampus has transformed our LMS experience. Students love the instant tutoring support.",
       clientName: "Melissa Hart",
@@ -230,11 +230,11 @@ const baseURL = "https://ikonicdev.com/wp-content/themes/ikonic/",
       solution:
         "We built a travel chatbot that automates bookings, assists users with personalized itinerary planning, and delivers real-time travel updates and insights.",
       tools: [
-        { name: "Langchain", icon: baseURL + "/images/icons/Langchain.webp" },
-        { name: "MangoDB", icon: baseURL + "/images/icons/mongodb-one.webp" },
+        { name: "Langchain", icon: baseURL + "/icons/Langchain.webp" },
+        { name: "MangoDB", icon: baseURL + "/icons/mongodb-one.webp" },
       ],
-      image: baseURL + "/images/case-work-19.webp",
-      clientImage: baseURL + "/images/client-says-8.png",
+      image: baseURL + "/case-work-19.webp",
+      clientImage: baseURL + "/client-says-8.webp",
       testimonial:
         "This chatbot changed how we handle travel requests. Clients get fast, smart recommendations.",
       clientName: "Ahmed Rizvi",
@@ -251,11 +251,11 @@ const baseURL = "https://ikonicdev.com/wp-content/themes/ikonic/",
       solution:
         "We developed an AI chatbot that delivers personalized portfolio analysis, real-time market insights, and predictive risk assessments to support better financial decisions.",
       tools: [
-        { name: "CrewAI", icon: baseURL + "/images/icons/CrewAI.webp" },
-        { name: "Python", icon: baseURL + "/images/icons/python-one.webp" },
+        { name: "CrewAI", icon: baseURL + "/icons/CrewAI.webp" },
+        { name: "Python", icon: baseURL + "/icons/python-one.webp" },
       ],
-      image: baseURL + "/images/case-work-20.webp",
-      clientImage: baseURL + "/images/client-says-9.png",
+      image: baseURL + "/case-work-20.webp",
+      clientImage: baseURL + "/client-says-9.webp",
       testimonial:
         "FinanceHub became our go-to assistant. It’s like having a financial analyst on call.",
       clientName: "Kevin Liu",
@@ -273,11 +273,11 @@ const baseURL = "https://ikonicdev.com/wp-content/themes/ikonic/",
       solution:
         "We built an HR chatbot that automates resume analysis, manages the candidate pipeline, and schedules interviews—streamlining the entire hiring process.",
       tools: [
-        { name: "Langchain", icon: baseURL + "/images/icons/Langchain.webp" },
-        { name: "Next.js", icon: baseURL + "/images/icons/Next.webp" },
+        { name: "Langchain", icon: baseURL + "/icons/Langchain.webp" },
+        { name: "Next.js", icon: baseURL + "/icons/Next.webp" },
       ],
-      image: baseURL + "/images/case-work-21.webp",
-      clientImage: baseURL + "/images/client-says-10.png",
+      image: baseURL + "/case-work-21.webp",
+      clientImage: baseURL + "/client-says-10.webp",
       testimonial:
         "TalentFlow sped up our hiring by 60%. It’s efficient, accurate, and easy to use.",
       clientName: "Rachel Kim",
